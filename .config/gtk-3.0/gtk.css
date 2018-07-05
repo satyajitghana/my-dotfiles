@@ -1,0 +1,11 @@
+.window-frame {
+  box-shadow: none;
+  margin: 0;
+}
+
+TerminalScreen,
+VteTerminal,
+vte-terminal {
+	padding: 20px 20px 20px 20px;
+	-VteTerminal-inner-border: 40px 40px 40px 40px;
+}
