@@ -1,4 +1,4 @@
-#MyDotFiles
+# MyDotFiles
 
 Notes :
 Install ``font-awesome-5`` for polybar
