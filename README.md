@@ -6,16 +6,20 @@
 2. Install the fonts from `./fonts`
 3. If you are using Windows Terminal with WSL, see `profiles.json`
 
+> NOTE: Run the lines in script file line-by-line if any errors during execution
+
 ## Files
 
 `settings.json` : VSCode config
 `.zshrc` : ZSH config
 `p10k.zsh` : PowerkLevel10K config
+`profiles.json`: Windows Terminal Config file
 
 Notes :
 Install ``font-awesome-5`` for polybar
 
 Stuff to install as per my liking :
+
 1. Tilix - font: Inconsolata
 2. Cava
 3. zsh
