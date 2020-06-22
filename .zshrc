@@ -1,6 +1,9 @@
 # WSL2 Display, install VcxSrv on Windows, make sure to disable access control
 export DISPLAY=$(cat /etc/resolv.conf | grep nameserver | awk '{print $2}'):0
 
+# WSL Pulse Audio, make sure pulseaudio is running on windows and auth-anonymous=1 in config
+export PULSE_SERVER=tcp:$(grep nameserver /etc/resolv.conf | awk '{print $2}');
+
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]
 # confirmations, etc.) must go above this block; everything else may go below.
