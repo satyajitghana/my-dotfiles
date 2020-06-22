@@ -15,6 +15,9 @@
 `p10k.zsh` : PowerkLevel10K config
 `profiles.json`: Windows Terminal Config file
 
+> NOTE: `setting.json` is different for local machine and WSL
+> had issues with clag format, then saw that i was configuring for local-machine not WSL
+
 Notes :
 Install ``font-awesome-5`` for polybar
 
