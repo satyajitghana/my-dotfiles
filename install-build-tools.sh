@@ -32,4 +32,10 @@ sudo apt update
 sudo apt install bazel -y
 echo "${RED}installed bazel${NC}"
 
+# nodejs and npm
+sudo apt install nodejs npm
+
+# essential stuff
+sudo apt install gnupg2 pass
+
 echo "${RED}BUILD-SETUP COMPLETE${NC}"
