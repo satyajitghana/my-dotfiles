@@ -9,7 +9,12 @@ sudo apt install i3xrocks-battery # for laptops
 # TILIX
 sudo apt install tilix
 
-# use this to change default terminal to tilix # sudo update-alternatives --config x-terminal-emulator
+# use this to change default terminal to tilix # sudo update-alternatives --config x-terminal-emulator'
+
+# CAVA
+sudo add-apt-repository ppa:hsheth2/ppa
+sudo apt-get update
+sudo apt-get install cava
 
 # SPOTIFY INSTALL
 curl -sS https://download.spotify.com/debian/pubkey.gpg | sudo apt-key add - 
