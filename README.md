@@ -8,6 +8,9 @@
 
 > NOTE: Run the lines in script file line-by-line if any errors during execution
 
+> NOTE: Consider using regolith-desktop: https://regolith-linux.org/ 
+> AMAZING ENVIRONMENT !
+
 ## Files
 
 `settings.json` : VSCode config
