@@ -11,6 +11,8 @@
 > NOTE: Consider using regolith-desktop: https://regolith-linux.org/ 
 > AMAZING ENVIRONMENT !
 
+> SEE https://regolith-linux.org/docs/getting-started/install/ for installation guide
+
 ## Files
 
 `settings.json` : VSCode config
