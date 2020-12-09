@@ -1,0 +1,13 @@
+{
+    "codeCellConfig": {
+        "fontSize": 18,
+        "fontFamily": "JetBrains Mono",
+        "lineNumbers": true,
+        "matchBrackets": true
+    },
+    "rawCellConfig": {
+        "fontSize": 18,
+        "fontFamily": "JetBrains Mono",
+        "lineNumbers": true
+    }
+}
