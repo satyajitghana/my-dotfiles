@@ -16,3 +16,11 @@ conda install -c conda-forge notebook
 conda install -c conda-forge jupyterthemees
 
 jt -t monokai -f fira -fs 13 -nf ptsans -nfs 11 -N -kl -cursw 5 -cursc r -cellw 95% -T
+
+# Install Jupyter Lab
+conda install -c conda-forge jupyterlab
+
+# Jupyter Lab Themes
+# make sure to have node installed
+jupyter labextension install @arbennett/base16-gruvbox-dark
+jupyter labextension install @oriolmirosa/jupyterlab_materialdarker
