@@ -24,3 +24,5 @@ conda install -c conda-forge jupyterlab
 # make sure to have node installed
 jupyter labextension install @arbennett/base16-gruvbox-dark
 jupyter labextension install @oriolmirosa/jupyterlab_materialdarker
+jupyter labextension install @arbennett/base16-nord
+jupyter labextension install @axlair/jupyterlab_vim
