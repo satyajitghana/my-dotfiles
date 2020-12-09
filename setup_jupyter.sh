@@ -1,5 +1,6 @@
 # Install jupyter notebook, lab, nbblack and themes
 conda install -c conda-forge notebook jupyterlab jupyterthemes nb_black
+conda install -c fastai nbdev
 jt -t monokai -f fira -fs 13 -nf ptsans -nfs 11 -N -kl -cursw 5 -cursc r -cellw 95% -T
 
 # Jupyter Lab Themes
