@@ -20,3 +20,7 @@ pip3 install pywal
 sudo apt instal calc
 
 Copy the polybar config giles from my-dotfiles
+
+Setup only fonts from https://github.com/adi1090x/polybar-themes
+ 
+Probably i will remove the repository dependencies and make my own scripts to do this
