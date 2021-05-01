@@ -1,5 +1,10 @@
 # Ricing
 
+## ZSH
+
+Install exa, bat
+sudo apt install exa bat
+
 ## Rofi
 
 Install Rofi from source https://github.com/davatorium/rofi
