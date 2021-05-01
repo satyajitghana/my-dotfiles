@@ -5,6 +5,39 @@
 Install exa, bat
 sudo apt install exa bat
 
+## NVim
+
+sudo apt install nvim
+
+Now install vim-plugin and coc
+
+```
+sudo sh -c "curl -sL install-node.now.sh/lts | bash"
+sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
+       https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+Copy the nvim config files and `.vimrc`
+
+```
+pip3 install --user neovim
+```
+
+```
+nvim
+:PlugInstall
+:UpdateRemotePlugins
+:q!
+:q!
+```
+
+Fix the syntax error issue
+
+```
+sed -i.bu 's/async=True/**{"async": True}/' ~/.config/nvim/plugged/nvim-completion-manager/pythonx/cm.py
+sed -i.bu 's/async=True/**{"async": True}/' ~/.config/nvim/plugged/nvim-completion-manager/pythonx/cm_core.py
+```
+
 ## Rofi
 
 Install Rofi from source https://github.com/davatorium/rofi
