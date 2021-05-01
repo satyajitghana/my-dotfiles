@@ -1,0 +1,9 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =7
+let g:netrw_dirhist_7='/home/shadowleaf/.config/sxhkd'
+let g:netrw_dirhist_6='/home/shadowleaf/my-dotfiles/guides'
+let g:netrw_dirhist_5='/home/shadowleaf/my-dotfiles'
+let g:netrw_dirhist_4='/home/shadowleaf/.config/polybar'
+let g:netrw_dirhist_3='/home/shadowleaf/.config/bspwm'
+let g:netrw_dirhist_2='/home/shadowleaf/.config/sxhkd'
+let g:netrw_dirhist_1='/home/shadowleaf/my-dotfiles/guides/AUDIO.md'
