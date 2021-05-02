@@ -2,7 +2,7 @@
 
 pgrep -x sxhkd > /dev/null || sxhkd &
 
-"$HOME/.config/polybar/forest/launch.sh"
+"$HOME/.config/polybar/currentbar/launch.sh"
 "$HOME/.config/picom/launch.sh"
 
 # for annoying beeping sounds

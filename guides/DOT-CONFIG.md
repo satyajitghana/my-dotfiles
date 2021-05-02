@@ -7,7 +7,7 @@ sudo apt install exa bat
 
 ## NVim
 
-sudo apt install nvim
+Install Nvim 0.5.0 or greater from https://github.com/neovim/neovim/releases
 
 Now install vim-plugin and coc
 
@@ -15,6 +15,12 @@ Now install vim-plugin and coc
 sudo sh -c "curl -sL install-node.now.sh/lts | bash"
 sh -c 'curl -fLo "${XDG_DATA_HOME:-$HOME/.local/share}"/nvim/site/autoload/plug.vim --create-dirs \
        https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim'
+```
+
+Install ripgrep
+
+```
+sudo apt-get install ripgrep
 ```
 
 Copy the nvim config files and `.vimrc`
@@ -54,8 +60,11 @@ Then copy the rofi config files from my-dotfiles
 
 Install polybar
 
+sudo apt install playerctl
+git clone https://github.com/noctuid/zscroll && cd zscroll && sudo python3 setup.py install
 pip3 install pywal
 sudo apt instal calc
+
 
 Copy the polybar config giles from my-dotfiles
 

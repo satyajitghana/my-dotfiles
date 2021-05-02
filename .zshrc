@@ -146,13 +146,25 @@ source $ZSH/oh-my-zsh.sh
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
 [[ ! -f ~/.p10k.zsh ]] || source ~/.p10k.zsh
 
+# FZF
+# --files: List files that would be searched but do not search
+# --no-ignore: Do not respect .gitignore, etc...
+# --hidden: Search hidden files and folders
+# --follow: Follow symlinks
+# --glob: Additional conditions for search (in this case ignore everything in the .git/ folder)
+export FZF_DEFAULT_COMMAND='rg --files --no-ignore --hidden --follow --glob "!.git/*"'
+
 # Custom Stuff
 #
+
+export EDITOR="nvim"
+
 alias gll='git log --graph --pretty=oneline --abbrev-commit'
 alias cat='batcat'
 alias ls='exa'
 alias icat="kitty +kitten icat"
 alias vim="nvim"
+alias grep="grep --color=auto"
 
 alias marja="systemctl poweroff -i"
 alias soja="systemctl suspend"
