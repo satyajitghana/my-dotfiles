@@ -71,3 +71,9 @@ Copy the polybar config giles from my-dotfiles
 Setup only fonts from https://github.com/adi1090x/polybar-themes
  
 Probably i will remove the repository dependencies and make my own scripts to do this
+
+## BSPWM + SXHKD
+
+Just install bspwm and copy my config files
+
+NOTE: You might need to disable some of the keyboard shortcuts in gnome, they will interfere with sxhkd
