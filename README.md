@@ -8,7 +8,7 @@ Use dotbot to install dotfiles
 
 ## Screenshot
 
-[screenshot](2021-05-02_13-49.png)
+![screenshot](2021-05-02_13-49.png)
 
 ## TODO
 
