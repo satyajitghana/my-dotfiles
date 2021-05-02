@@ -76,4 +76,6 @@ Probably i will remove the repository dependencies and make my own scripts to do
 
 Just install bspwm and copy my config files
 
+sudo apt install flameshot
+
 NOTE: You might need to disable some of the keyboard shortcuts in gnome, they will interfere with sxhkd
