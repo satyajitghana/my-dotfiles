@@ -9,3 +9,13 @@ options snd-hda-intel model=headset-mode
 ```
 
 NOTE: Do not "Restart" your system, instead "Shutdown" and "Turn ON"
+
+
+## Equalizer
+
+```
+sudo apt install pulseaudio pulseeffects --install-recommends
+```
+
+
+
