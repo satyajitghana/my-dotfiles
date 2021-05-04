@@ -2,8 +2,8 @@
 
 ## ZSH
 
-Install exa, bat
-sudo apt install exa bat
+Install exa, bat, fzf
+sudo apt install exa bat fzf
 
 ## NVim
 

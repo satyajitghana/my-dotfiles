@@ -106,6 +106,7 @@ plugins=(
 	command-not-found
 	zsh-syntax-highlighting
 	zsh-autosuggestions
+        fzf
 )
 
 ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
