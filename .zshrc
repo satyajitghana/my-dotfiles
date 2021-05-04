@@ -20,6 +20,11 @@ antigen apply
 # Rofi
 export PATH=$HOME/.config/rofi/bin:$PATH
 
+# Android Studio
+export PATH=/opt/android-studio/bin:$PATH
+export PATH=$PATH:/opt/flutter/bin
+export _JAVA_AWT_WM_NONREPARENTING=1
+
 # Python packages
 export PATH=$PATH:$HOME/.local/bin
 
@@ -164,10 +169,15 @@ alias cat='batcat'
 alias ls='exa'
 alias icat="kitty +kitten icat"
 alias vim="nvim"
+alias vi="vim"
 alias grep="grep --color=auto"
+alias neofetch="neofetch --backend kitty"
+alias please="sudo"
+alias pls="please"
 
 alias marja="systemctl poweroff -i"
 alias soja="systemctl suspend"
 
 alias cdp="cd ~/projects"
+alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
