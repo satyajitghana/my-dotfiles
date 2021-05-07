@@ -16,3 +16,9 @@
 - spotify-client
 - mpd
 - mpc
+
+- batcat
+- exa
+- tldr
+- most
+
