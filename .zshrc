@@ -182,3 +182,9 @@ alias soja="systemctl suspend"
 alias cdp="cd ~/projects"
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
 
+# sudo apt install shellcheck
+alias scheck="shellcheck"
+
+# sudo apt install most
+export PAGER="most"
+
