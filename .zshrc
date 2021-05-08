@@ -186,5 +186,8 @@ alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo
 alias scheck="shellcheck"
 
 # sudo apt install most
-export PAGER="most"
+# export PAGER="most"
 
+function gacp() {
+        git add . && git commit -m "$1" && git push
+}
