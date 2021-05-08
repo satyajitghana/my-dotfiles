@@ -11,6 +11,21 @@ Plug 'vim-airline/vim-airline' | Plug 'vim-airline/vim-airline-themes'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 
+" Indentation
+Plug 'nathanaelkane/vim-indent-guides'
+
+" Sudo Write
+Plug 'lambdalisue/suda.vim'
+
+" Commenting
+Plug 'tpope/vim-commentary'
+
+" Moving Around
+Plug 'easymotion/vim-easymotion'
+
+" Multiple Cursors
+Plug 'mg979/vim-visual-multi', {'branch': 'master'}
+
 " Misc
 Plug 'roxma/nvim-completion-manager'
 Plug 'SirVer/ultisnips'
