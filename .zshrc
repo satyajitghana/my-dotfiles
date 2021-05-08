@@ -12,7 +12,13 @@ antigen bundle git
 antigen bundle pip
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
+antigen bundle thefuck
 antigen apply
+
+# TheFuck
+eval "$(thefuck --alias)"
+
+# pip3 install thefuck
 
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
@@ -107,6 +113,7 @@ plugins=(
 	zsh-syntax-highlighting
 	zsh-autosuggestions
         fzf
+        thefuck
 )
 
 ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
@@ -181,6 +188,8 @@ alias soja="systemctl suspend"
 
 alias cdp="cd ~/projects"
 alias alert='notify-send --urgency=low -i "$([ $? = 0 ] && echo terminal || echo error)" "$(history|tail -n1|sed -e '\''s/^\s*[0-9]\+\s*//;s/[;&|]\s*alert$//'\'')"'
+
+alias F="echo '\033[0;31mpaid respect\033[0m'"
 
 # sudo apt install shellcheck
 alias scheck="shellcheck"
