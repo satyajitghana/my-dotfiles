@@ -13,6 +13,7 @@ antigen bundle pip
 antigen bundle command-not-found
 antigen bundle zsh-users/zsh-syntax-highlighting
 antigen bundle thefuck
+antigen bundle taskwarrior
 antigen apply
 
 # TheFuck
@@ -114,6 +115,7 @@ plugins=(
 	zsh-autosuggestions
         fzf
         thefuck
+        taskwarrior
 )
 
 ### Fix slowness of pastes with zsh-syntax-highlighting.zsh
@@ -193,6 +195,8 @@ alias F="echo '\033[0;31mpaid respect\033[0m'"
 
 # sudo apt install shellcheck
 alias scheck="shellcheck"
+
+alias wttr="curl wttr.in"
 
 # sudo apt install most
 # export PAGER="most"
