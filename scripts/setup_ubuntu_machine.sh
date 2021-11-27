@@ -27,6 +27,9 @@ sudo add-apt-repository ppa:videolan/master-daily
 sudo apt-get update
 sudo apt-get install vlc
 
+# Glances
+sudo apt install glances
+
 # ANACONDA OPTIONAL
 # sudo apt-get install libgl1-mesa-glx libegl1-mesa libxrandr2 libxrandr2 libxss1 libxcursor1 libxcomposite1 libasound2 libxi6 libxtst6
 # download from here https://www.anaconda.com/products/individual#linux , and install the sh file
