@@ -184,6 +184,7 @@ alias grep="grep --color=auto"
 alias neofetch="neofetch --backend kitty"
 alias please="sudo"
 alias pls="please"
+alias git_unmerged="git --no-pager diff --name-only --diff-filter=U"
 
 alias marja="systemctl poweroff -i"
 alias soja="systemctl suspend"
