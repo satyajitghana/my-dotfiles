@@ -8,7 +8,7 @@ NC='\033[0m'
 sudo apt install zsh -y
 echo "${RED}installed zsh${NC}"
 
-sudo apt install exa bat
+sudo apt install exa bat thefuck
 
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
