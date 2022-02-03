@@ -2,6 +2,8 @@
 
 curl -L https://sw.kovidgoyal.net/kitty/installer.sh | sh /dev/stdin
 
+sudo apt install kitty-terminfo
+
 # install theme
 git clone --depth 1 https://github.com/dexpota/kitty-themes.git ~/.config/kitty/kitty-themes
 
