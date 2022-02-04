@@ -176,9 +176,11 @@ export EDITOR="nvim"
 
 alias gll='git log --graph --pretty=oneline --abbrev-commit'
 alias cat='batcat'
+alias pcat="batcat --style=plain"
 alias ls='exa'
 alias icat="kitty +kitten icat"
 alias kssh="kitty +kitten ssh"
+alias ssh="TERM=xterm ssh"
 alias vim="nvim"
 alias vi="vim"
 alias grep="grep --color=auto"
