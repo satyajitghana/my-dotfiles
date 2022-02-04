@@ -178,6 +178,7 @@ alias gll='git log --graph --pretty=oneline --abbrev-commit'
 alias cat='batcat'
 alias ls='exa'
 alias icat="kitty +kitten icat"
+alias kssh="kitty +kitten ssh"
 alias vim="nvim"
 alias vi="vim"
 alias grep="grep --color=auto"
