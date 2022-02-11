@@ -179,6 +179,7 @@ alias cat='batcat'
 alias ls='exa'
 alias icat="kitty +kitten icat"
 alias vim="nvim"
+alias ssh="TERM=xterm ssh"
 alias vi="vim"
 alias grep="grep --color=auto"
 alias neofetch="neofetch --backend kitty"
