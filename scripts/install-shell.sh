@@ -8,9 +8,13 @@ NC='\033[0m'
 sudo apt install zsh -y
 echo "${RED}installed zsh${NC}"
 
+sudo apt install exa bat thefuck fzf
+
 # install oh-my-zsh
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 echo "${RED}installed oh-my-zsh${NC}"
+
+curl -L git.io/antigen > ~/.config/antigen.zsh
 
 # install powerlevel10k
 sudo git clone --depth=1 https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
