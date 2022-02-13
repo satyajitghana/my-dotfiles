@@ -11,3 +11,5 @@
     sudo cp * /etc/update-motd.d/
     sudo update-motd
     ```
+
+Refer: https://nebulab.com/blog/awesome-motds-with-ubuntu
