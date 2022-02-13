@@ -13,3 +13,6 @@
     ```
 
 Refer: https://nebulab.com/blog/awesome-motds-with-ubuntu
+
+To install more fonts for `toilet`: https://github.com/xero/figlet-fonts
+
