@@ -209,3 +209,10 @@ alias wttr="curl wttr.in"
 function gacp() {
         git add . && git commit -m "$1" && git push
 }
+
+if [[ ! -z VSCODE_IPC_HOOK_CLI ]]; then
+	for i in $(ls ~/.vscode-server/bin); do
+		export PATH=$HOME/.vscode-server/bin/$i/bin:$PATH
+	done
+fi
+
